@@ -1,0 +1,21 @@
+{
+  "servers": {
+    "my-mcp-server-abc94648": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp@latest"
+      ]
+    },
+    "supabase": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@supabase/mcp-server-supabase@latest",
+        "--access-token",
+        "sbp_213c8b21ae55804c95989357abec9167db094a7b"
+      ]
+    }
+  }
+}
